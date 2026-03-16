@@ -9,6 +9,7 @@ import Certificates from './components/Certificates.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import ScrollProgress from './components/ScrollProgress.jsx';
+import cvImage from './assets/resume/CV.png';
 
 export default function App() {
   const [theme, setTheme] = useState('dark');
@@ -49,7 +50,7 @@ export default function App() {
             </p>
             <div className="mt-6 flex justify-center">
               <a
-                href="/src/assets/resume/CV.png"
+                href={cvImage}
                 download="Himanshu-Magotra-CV.png"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-glow transition hover:brightness-110"
               >

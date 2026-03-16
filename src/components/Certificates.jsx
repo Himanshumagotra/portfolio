@@ -1,23 +1,26 @@
 import { useState } from 'react';
+import fundamentalsImg from '../assets/certificates/fundamentals-of-network-communication.png';
+import computationalImg from '../assets/certificates/computational-theory.png';
+import peerToPeerImg from '../assets/certificates/peer-to-peer-lan.png';
 
 const certificates = [
   {
     id: 2,
     name: 'Fundamentals of Network Communication',
     organization: 'University of Colorado (Coursera)',
-    file: '/src/assets/certificates/fundamentals-of-network-communication.png',
+    file: fundamentalsImg,
   },
   {
     id: 3,
     name: 'Computational Theory: Language Principle & Finite Automata Theory',
     organization: 'Infosys',
-    file: '/src/assets/certificates/computational-theory.png',
+    file: computationalImg,
   },
   {
     id: 4,
     name: 'Peer-to-Peer Protocols and Local Area Networks',
     organization: 'University of Colorado (Coursera)',
-    file: '/src/assets/certificates/peer-to-peer-lan.png',
+    file: peerToPeerImg,
   },
 ];
 

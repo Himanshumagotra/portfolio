@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import cvImage from '../assets/resume/CV.png';
 
 const typingItems = [
   'MERN Stack Developer',
@@ -49,7 +50,7 @@ export default function Hero() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/src/assets/resume/CV.png';
+    link.href = cvImage;
     link.download = 'Himanshu-Magotra-CV.png';
     link.click();
   };
